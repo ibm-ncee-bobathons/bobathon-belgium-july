@@ -15,7 +15,7 @@ Complete guide for setting up your development environment for IBM Bob and watso
 
 ## Overview
 
-This guide walks you through setting up all required tools for the Bobathon Amsterdam Labs. You'll install:
+This guide walks you through setting up all required tools for the Bobathon Belgium Labs. You'll install:
 
 - **Python 3.11+**: Required runtime for the watsonx Orchestrate ADK
 - **IBM Bob IDE**: AI-powered development assistant
