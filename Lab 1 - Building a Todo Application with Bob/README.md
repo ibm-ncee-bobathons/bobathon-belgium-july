@@ -34,7 +34,7 @@ Before starting, ensure you have:
 - [ ] GitHub account (for MCP integration)
 - [ ] Text editor or IDE open
 
-If you haven't completed setup, see [prerequisites.md](../prerequisites.md).
+If you haven't completed setup, see [prerequisites.md](./prerequisites.md).
 
 ## Lab Structure
 
