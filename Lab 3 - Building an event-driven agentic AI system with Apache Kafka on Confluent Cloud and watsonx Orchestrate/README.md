@@ -77,7 +77,7 @@ The following figure shows this architecture:
 
 ### Prerequisites
 
-- This tutorial assumes you have a running local environment of watsonx Orchestrate Agent Development Kit (ADK). Check out the getting started with ADK tutorial (https://developer.ibm.com/tutorials/getting-started-with-watsonx-orchestrate/)if you don’t have an active instance. This tutorial has been tested on watsonx Orchestrate ADK version 2.1.
+- This tutorial assumes you have a running local environment of watsonx Orchestrate Agent Development Kit (ADK). Check out the getting started with ADK tutorial (https://developer.ibm.com/tutorials/getting-started-with-watsonx-orchestrate/) if you don’t have an active instance. This tutorial has been tested on watsonx Orchestrate ADK version 2.1.
 
 - Optionally, access to IBM Bob. Sign up for your free trial. https://bob.ibm.com/trial/?utm_source=developer-content&cm_sp=ibmdev-_-developer-_-trial 
 
