@@ -1,6 +1,6 @@
 # Prerequisites
 
-Essential setup guides for IBM Bobathon Hungary Labs.
+Essential setup guides for IBM Bobathon Belgium Labs.
 
 ## Overview
 

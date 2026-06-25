@@ -2,7 +2,7 @@
 
 <img src="images/bob.png" alt="IBM Bob Logo" width="200"/>
 
-# IBM BOBATHON HUNGARY 🇭🇺
+# IBM BOBATHON BELGIUM 🇧🇪
 
 <pre>
 ╔══════════════════════════════════════════════════════════════════════════════╗
@@ -26,7 +26,7 @@
 
 ---
 
-## Welcome to IBM Bobathon Hungary Labs
+## Welcome to IBM Bobathon Belgium Labs
 
 This collection of hands-on labs demonstrates how to leverage **IBM Bob** as an AI development partner to build enterprise-grade solutions. From full-stack applications to event-driven agentic systems, you'll learn how AI can accelerate your development workflow.
 
@@ -151,7 +151,7 @@ We recommend completing the labs in order:
 📁 **[View Complete Repository Structure →](REPOSITORY-STRUCTURE.md)**
 
 ```
-bobathon-hungary/
+bobathon-belgium-july/
 ├── Lab 1 - Building a Todo Application with Bob/
 │   ├── README.md (714 lines) | solution/ | starter/
 ├── Lab 2 - Build Agentic Workflows.../

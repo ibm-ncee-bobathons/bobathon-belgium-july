@@ -281,10 +281,10 @@ orchestrate env add -n <environment-name> -u <service-instance-url> --type ibm_i
 
 | Placeholder | Replace with |
 |---|---|
-| `<environment-name>` | A name for your environment, e.g. `hungarybob` |
+| `<environment-name>` | A name for your environment, e.g. `belgiumbob` |
 | `<service-instance-url>` | The URL you copied from the IBM Cloud wxO service page |
 
-![Terminal showing the full orchestrate env add command with a real service URL, and the "[INFO] – Environment 'hungarybob' has been created" confirmation](images/screenshots/p22-terminal-env-add.png)
+![Terminal showing the full orchestrate env add command with a real service URL, and the "[INFO] – Environment 'belgiumbob' has been created" confirmation](images/screenshots/p22-terminal-env-add.png)
 
 ---
 
@@ -298,7 +298,7 @@ orchestrate env activate <environment-name>
 
 When prompted, **paste your API key** and press Enter to confirm. You will see a confirmation that the environment is now active.
 
-![Terminal showing "orchestrate env activate hungarybob", the "Please enter WXO API key:" prompt, and the "[INFO] – Environment 'hungarybob' is now active" confirmation](images/screenshots/p23-terminal-env-activate.png)
+![Terminal showing "orchestrate env activate belgiumbob", the "Please enter WXO API key:" prompt, and the "[INFO] – Environment 'belgiumbob' is now active" confirmation](images/screenshots/p23-terminal-env-activate.png)
 
 ---
 
