@@ -1,0 +1,31 @@
+# Confluent Cloud Configuration
+# Fill in your Confluent Cloud credentials below
+
+# Kafka Cluster Bootstrap Servers
+# Example: pkc-xxxxx.us-east-1.aws.confluent.cloud:9092
+BOOTSTRAP_SERVERS=pkc-619z3.us-east1.gcp.confluent.cloud:9092
+
+# Confluent Cloud API Key (SASL Username)
+# Get this from Confluent Cloud Console -> API Keys
+SASL_USERNAME=QWQFEN3GMBWSS72A
+
+# Confluent Cloud API Secret (SASL Password)
+# Get this from Confluent Cloud Console -> API Keys
+SASL_PASSWORD=cflt9mK5fFroiFruJcE18cGlSndqY4b4N8c0kpTj6TXuQL2zT1FR6jKmLRD+JACQ
+
+# ksqlDB Cluster Endpoint
+KSQLDB_ENDPOINT=https://pksqlc-zjnjmy8.us-east1.gcp.confluent.cloud:443
+
+# ksqlDB Query Endpoint (for REST API /query endpoint)
+KSQLDB_QUERY_ENDPOINT=https://pksqlc-zjnjmy8.us-east1.gcp.confluent.cloud:443/query
+
+# ksqlDB API Key (separate key for ksqlDB cluster)
+KSQLDB_API_KEY=4QEHQNVHVGQRS4HF
+
+# ksqlDB API Secret
+KSQLDB_API_SECRET=cfltmxH6HChbyFnfrhY/d6ilSzkE+yJxWhIovM/HegZLSXvdFOV3tnhMlJtBMpKg
+
+# Topic Configuration
+TOPIC_NAME=inventory_transactions
+NUM_PARTITIONS=1
+RETENTION_MS=-1

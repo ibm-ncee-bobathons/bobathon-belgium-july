@@ -1,0 +1,10 @@
+.DS_Store
+*.backup
+*.bak
+*~
+*.pyc
+
+Lab 2 - Build Agentic Workflows Programmatically on watsonx Orchestrate Using IBM Bob/env_setup_instructions.pdf
+Lab 2 - Build Agentic Workflows Programmatically on watsonx Orchestrate Using IBM Bob/images/slides
+
+.venv

@@ -1,0 +1,15 @@
+Based on "draft.txt", create an implementation plan named "plan.md".
+
+Do the first phase based on "plan.md". Use @venv to run Python commands.
+
+Do the second phase based on "plan.md". Use @venv to run Python commands.
+
+Do the third phase based on "plan.md". Use @venv to run Python commands.
+
+Do the fourth phase based on "plan.md". Use @venv to run Python commands.
+
+Do the fifth phase based on "plan.md". Use @venv to run Python commands.
+
+Do the sixth phase based on "plan.md". Use @venv to run Python commands.
+
+Do the seventh phase based on "plan.md". Use @venv to run Python commands.

@@ -1,0 +1,36 @@
+Task:
+NL2SQL-based solution, users should be able to ask questions in natural language English about purchasing data stored in a database.
+Based on the user’s question, generate an SQL query using an LLM, then execute it in the database.
+
+After the query is executed, display the returned data and, where it makes sense, have the LLM answer the question asked by the user.
+
+Main features:
+
+* Break down the implementation into phases: data, backend, frontend, testing, etc.
+* The goal is to create a really simple implementation and validate the technologies.
+* In the plan, include a planned project folder structure.
+
+Technology solutions:
+
+* Backend using Python FastAPI.
+* When implementing backend/llm_service.py, use APIClient from the ibm-watsonx-ai package for the IBM watsonx AI connection. Do not use the Credentials class, because it is not available in the installed package version.
+* Frontend using Flask, served by the backend as well.
+* Use a virtual Python environment (venv)!
+* Use an SQLite database. The demo uses a pre-generated SQLite database located at: "database/purchase_data.db". The data structure provided in @DATABASE_SCHEMA.md.
+* For the LLM, use the IBM watsonx AI API. The access credentials are stored in the .env file. WATSONX_MODEL_ID: meta-llama/llama-3-3-70b-instruct
+* For SQL generation, ensure the LLM output is cleaned before execution: use only the first generated SQL line and discard any extra text, explanations, or invalid characters.
+* Store access credentials for all major functions in a .env file, and include any additional parameters that may be needed there.
+* Display the user interface as a simple web page where the user can enter questions and the LLM can respond.
+* The API configuration should look like this:
+    BACKEND_HOST=127.0.0.1
+    BACKEND_PORT=8000
+    FRONTEND_HOST=0.0.0.0
+    FRONTEND_PORT=5000
+
+
+
+Example questions:
+
+* “How many purchases were made in total?”
+* “Which product is the most popular?”
+* “Which customer made the most purchases?”
