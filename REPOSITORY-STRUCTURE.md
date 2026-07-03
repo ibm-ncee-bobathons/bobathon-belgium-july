@@ -133,7 +133,7 @@ graph TD
 4. MCP Configuration - Optional server setup
 5. Bob Rules - Development best practices
 6. Plan Creation - Design agent with Bob's Plan mode
-7. Implementation - Generate code with Bob's Advanced mode
+7. Implementation - Generate code with Bob's Agent mode
 8. Deployment - Import workflow and agent to wxO
 9. Verification - Test agent functionality
 10. Summary - Review and next steps

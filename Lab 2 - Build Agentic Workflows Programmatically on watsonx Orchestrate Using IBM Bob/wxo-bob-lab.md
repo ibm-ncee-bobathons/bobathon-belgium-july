@@ -275,7 +275,7 @@ Required Fields to Extract:
 
 ![Bob clarification questions](images/10-bob-clarification.png)
 
-6. Bob generates the implementation plan, the architecture design, and the workflow design. If Bob asks you to switch to code mode, **ignore the request** and continue to the next step.
+6. Bob generates the implementation plan, the architecture design, and the workflow design. If Bob asks you to switch to agent mode, **ignore the request** and continue to the next step.
 
 ![Bob implementation plan complete](images/11-bob-plan-complete.png)
 
@@ -293,11 +293,11 @@ Ask Bob to generate the code and the configuration needed to build the agent. Bo
 
 **Steps:**
 
-1. Switch to **Advanced** mode so that Bob can access the two watsonx Orchestrate MCP servers.
+1. Switch to **Agent** mode so that Bob can access the two watsonx Orchestrate MCP servers.
 
 2. Give Bob the instructions to create the agent, then review the plan and click **Approve**.
 
-![Advanced mode – implementation plan approved](images/13-advanced-mode-implement.png)
+![Agent mode – implementation plan approved](images/13-advanced-mode-implement.png)
 
 ```text
 Implement the approved plan and follow the below instructions:

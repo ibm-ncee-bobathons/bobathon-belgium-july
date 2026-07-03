@@ -297,7 +297,7 @@ In this step, you create the MCP tool and AI agent in watsonx Orchestrate. The M
 
 Update the .env file with your ksqlDB cluster details as your MCP tool is going to communicate with the newly created through ksqlDB.
 
-Prompt Bob in the Code mode with the following: 
+Prompt Bob in the Agent mode with the following:
 ```bash
 Create an MCP Server using the FastMCP framework. The MCP function is to query the current inventory (stored in a ksqlDB in Confluent Cloud). Make sure to include the ksqlDB connection details in the .env file. Once that is done, start the MCP server and build some unit test to validate the MCP function. When executing tests, mnake sure to utlize the venv in the project (as it has the required packages already installed).
 ```

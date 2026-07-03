@@ -123,11 +123,9 @@ Modes are specialized personas that tailor Bob’s behavior to specific tasks. I
 
 IBM Bob comes with several predefined modes:
 
-* `code` — general-purpose coding tasks, optimized for cost efficiency
+* `agent` — general-purpose coding and tool-use tasks, optimized for cost efficiency
 * `ask` — conversational questions and information about your code
 * `plan` — high-level planning and big-picture thinking
-* `advanced` — advanced coding tasks requiring access to MCP tools
-* `orchestrator` — can switch between modes for complex projects that require coordination across multiple specialties and workflows
 
 In this lab, we will create an additional custom mode that acts as a Test Engineer responsible for writing tests. This mode will follow specific rules defining how tests should be implemented.
 

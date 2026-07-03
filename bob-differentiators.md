@@ -20,7 +20,7 @@ Bob stands out in four key areas:
 
 Bob offers **customizable Modes** that let you tailor the AI's behavior for specific workflows:
 
-- **Code Mode** - For implementation, refactoring, and file operations
+- **Agent Mode** - For implementation, refactoring, file operations, and MCP tool use
 - **Ask Mode** - For questions, explanations, and learning
 - **Plan Mode** - For architecture planning and task breakdown
 - **Custom Modes** - Create your own modes for specialized workflows
@@ -298,7 +298,7 @@ While Bob excels at Java modernization, it can help modernize **other languages 
 Try switching between modes to see how Bob adapts:
 - Ask Mode: "Explain how this authentication works"
 - Plan Mode: "Create a plan to add OAuth support"
-- Code Mode: "Implement the OAuth integration"
+- Agent Mode: "Implement the OAuth integration"
 ```
 
 ### 2. Enable Bob Findings

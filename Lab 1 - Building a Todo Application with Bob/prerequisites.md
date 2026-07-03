@@ -95,7 +95,7 @@ Bob must be installed and running in your development environment.
 **Verify Bob is running:**
 - Open your IDE/editor
 - Look for Bob's interface
-- Try switching between Bob's modes (Plan, Code, Ask, Advanced)
+- Try switching between Bob's modes (Plan, Agent, Ask)
 
 
 ### 5. Github MCP server
@@ -141,7 +141,7 @@ Before starting the lab, verify all prerequisites:
 - [ ] **Git installed**: Run `git --version`
 - [ ] **Git configured**: Run `git config --global user.name` and `git config --global user.email`
 - [ ] **Bob installed**: Verify Bob is accessible in your IDE
-- [ ] **Bob modes available**: Can switch between Plan, Code, Ask, and Advanced modes
+- [ ] **Bob modes available**: Can switch between Plan, Agent, and Ask modes
 - [ ] **GitHub account**: Can log in to github.com
 - [ ] **GitHub token**: Personal access token generated and stored securely
 - [ ] **Text editor**: IDE or editor is installed and working
