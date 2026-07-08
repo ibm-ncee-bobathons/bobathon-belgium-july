@@ -711,6 +711,6 @@ How was this lab? We'd love to hear your thoughts:
 
 ---
 
-**Ready for the next challenge?** → [Start Lab 2: Security Analysis](../lab2/README.md)
+**Ready for the next challenge?** → [Start Lab 2 - Build Agentic Workflows Programmatically on watsonx Orchestrate Using IBM Bob](../Lab%202%20-%20Build%20Agentic%20Workflows%20Programmatically%20on%20watsonx%20Orchestrate%20Using%20IBM%20Bob/README.md)
 
-**Last Updated: February 2026**
+**Last Updated: July 2026**
