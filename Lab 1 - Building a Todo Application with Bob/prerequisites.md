@@ -100,7 +100,7 @@ Bob must be installed and running in your development environment.
 
 ### 5. Github MCP server
 
-The labs require access to a Github MCP server. This can be added by clicking on the three dots (...) in the IBM BOB panel, and select 'MCP servers'. Add the Github MCP server.  
+The labs require access to a Github MCP server. This can be added by going to 'Settings' in the IBM BOB panel, and select 'MCP servers'. Add the Github MCP server.  
 The MCP marketplace might only be available if there's currently not yet a project opened, so in case you don't see the MCP marketplace, close your project/folder and try again.  
 For Windows, the Github MCP server requires podman/docker:  
 1. Download and install it by following the instructions on https://github.com/podman-container-tools/podman/blob/main/docs/tutorials/podman-for-windows.md#installing-podman.  
