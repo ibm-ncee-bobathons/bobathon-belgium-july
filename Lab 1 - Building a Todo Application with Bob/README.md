@@ -83,7 +83,7 @@ Bob has three built-in modes, each optimized for different tasks:
 ### Switching Between Modes
 
 In Bob's interface:
-1. Look for the mode selector (usually at the top)
+1. Look for the mode selector (usually at the bottom)
 2. Click to see available modes
 3. Select the mode you need
 4. Bob will adapt its behavior accordingly
