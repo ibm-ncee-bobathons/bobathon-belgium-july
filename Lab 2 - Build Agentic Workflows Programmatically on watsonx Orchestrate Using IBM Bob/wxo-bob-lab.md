@@ -154,13 +154,17 @@ Install the watsonx Orchestrate ADK extension that enables the development and d
 2. Search for **watsonx Orchestrate ADK** and click **Install**.
 
 3. Create a Python virtual environment:
+   - Open a Terminal window in your project, and run:  
+     `py -3.12 -m venv venv`
+
+   Alternatively, using the Bob commands:
    - Press **CMD+Shift+P** (Mac) or **Ctrl+Shift+P** (Windows/Linux).
    - Select **Python: Create Environment...**
    - Select **venv**.
    - Choose **Python 3.12**.
    - Rename the virtual environment folder from `.venv` to `venv`.
 
-4. A new tile with watsonx logo appears in the left sidebar. Click the tile, then click **Initialize Workspace**.
+5. A new tile with watsonx logo appears in the left sidebar. Click the tile, then click **Initialize Workspace**.
 
 ![Initialize Workspace in the watsonx extension](images/18-initialize-workspace.png)
 
@@ -184,7 +188,15 @@ Install the watsonx Orchestrate ADK extension that enables the development and d
 
 ![API key prompt](images/20-api-key-prompt.png)
 
-7. When the environment becomes active, Bob shows all the agents and tools that exist in that environment.
+7. When the environment becomes active, Bob shows all the agents and tools that exist in that environment.  
+   If that fails, run these commands in your terminal:
+   ```Powershell
+   .\venv\Scripts\activate 
+   orchestrate env add -n saas -u <service instance URL for your watsonx Orchestrate environment>
+   orchestrate env activate saas
+   , and enter the API key
+   ```
+   
 
 ---
 
