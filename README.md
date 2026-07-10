@@ -78,7 +78,7 @@ Build a real-time retail inventory system with three coordinated agents processi
 
 ### [Lab 4: Full SDLC Overview - Interactive Demo](Lab%204%20-%20Full%20SDLC%20overview%20—%20what%20Bob%20does,%20and%20why%20it%20matters%20/)
 
-**🚀 [LAUNCH DEMO →](https://ibm-bobathon-amsterdam.s3-web.eu-de.cloud-object-storage.appdomain.cloud/stages/stage-0.html)** | ⏱️ 60 min | 📊 All Levels
+**🚀 [LAUNCH DEMO →](https://ludovic-gasc.github.io/bob-demo-presenter/stages/stage-0.html)** | ⏱️ 60 min | 📊 All Levels
 
 Experience Bob's complete SDLC capabilities through an interactive demonstration covering 8 stages from app creation to Day-2 operations.
 
