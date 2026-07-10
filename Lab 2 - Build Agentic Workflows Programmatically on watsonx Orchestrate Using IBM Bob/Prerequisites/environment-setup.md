@@ -158,13 +158,13 @@ The Agent Development Kit (ADK) provides CLI tools for building and deploying ag
 
 **📄 For detailed ADK installation instructions, please refer to:**
 
-**[env_setup_instructions.md](../env_setup_instructions.md)**
+**[env setup instructions.pdf](../env%20setup%20instructions%20.pdf)**
 
-This Markdown file contains the complete, authoritative guide for installing and configuring the watsonx Orchestrate ADK.
+This PDF contains the complete, authoritative guide for installing and configuring the watsonx Orchestrate ADK.
 
 ### Quick Verification
 
-After following the Markdown file instructions, verify your installation:
+After following the PDF instructions, verify your installation:
 
 ```bash
 orchestrate --version
@@ -180,9 +180,9 @@ Model Context Protocol (MCP) servers enable Bob to access watsonx Orchestrate do
 
 **📄 For detailed MCP server configuration instructions, please refer to:**
 
-**[env_setup_instructions.md](../env_setup_instructions.md)**
+**[env setup instructions.pdf](../env%20setup%20instructions%20.pdf)**
 
-This file contains the complete, authoritative guide for configuring MCP servers for Bob integration.
+This PDF contains the complete, authoritative guide for configuring MCP servers for Bob integration.
 
 ---
 

@@ -1,0 +1,4 @@
+confluent-kafka
+fastmcp
+pytest
+ibm-watsonx-orchestrate==2.9.0

@@ -73,7 +73,7 @@ The following figure created using Bob shows this architecture:
 
 ## Step 1 – Configure Access to watsonx Orchestrate MCP Servers
 
-> **Note:** If you have already completed the [env_setup_instructions.md](env_setup_instructions.md) guide, you can **skip this step** as your MCP servers are already configured.
+> **Note:** If you have already completed the [env setup instructions.pdf](env%20setup%20instructions%20.pdf) guide, you can **skip this step** as your MCP servers are already configured.
 
 Configure Bob to access the following watsonx Orchestrate MCP servers:
 
@@ -119,9 +119,31 @@ To configure access, complete the following steps:
 
 ![Bob IDE showing MCP server configuration in mcp.json file](images/04-mcp-json-config.png)
 
+### Bob Marketplace Approach (Optional)
+
+Alternatively, complete the following steps to configure Bob to access the watsonx Orchestrate MCP servers:
+
+1. In the right pane, click **... > MCP Servers**.
+
+2. Search for **watsonx Orchestrate**.
+
+3. Click **Install** on **watsonx Orchestrate ADK Docs**. Choose the installation scope (current project or global), then click **Install**.
+
+   > **Important:** Make sure Python and uv are installed in your system before you continue.
+
+4. Click **Install** on **watsonx Orchestrate ADK**.
+   - Set the installation scope to **Project**.
+   - Set the installation method to **Latest ADK Version**.
+   - Enter the absolute path of your project directory in **Current Project Working Directory**.
+   - Click **Install**.
+
+5. Both MCP servers must now be marked as healthy. Close the Settings page to continue.
+
+---
+
 ## Step 2 – Install the watsonx Orchestrate ADK Extension
 
-> **Note:** If you have already completed the [env_setup_instructions.md](env_setup_instructions.md) guide, you can **skip this step** as the ADK extension is already installed and configured.
+> **Note:** If you have already completed the [env setup instructions.pdf](env%20setup%20instructions%20.pdf) guide, you can **skip this step** as the ADK extension is already installed and configured.
 
 Install the watsonx Orchestrate ADK extension that enables the development and deployment of agents and tools in Bob.
 
@@ -132,13 +154,17 @@ Install the watsonx Orchestrate ADK extension that enables the development and d
 2. Search for **watsonx Orchestrate ADK** and click **Install**.
 
 3. Create a Python virtual environment:
+   - Open a Terminal window in your project, and run:  
+     `py -3.12 -m venv venv`
+
+   Alternatively, using the Bob commands:
    - Press **CMD+Shift+P** (Mac) or **Ctrl+Shift+P** (Windows/Linux).
    - Select **Python: Create Environment...**
    - Select **venv**.
    - Choose **Python 3.12**.
    - Rename the virtual environment folder from `.venv` to `venv`.
 
-4. A new tile with watsonx logo appears in the left sidebar. Click the tile, then click **Initialize Workspace**.
+5. A new tile with watsonx logo appears in the left sidebar. Click the tile, then click **Initialize Workspace**.
 
 ![Initialize Workspace in the watsonx extension](images/18-initialize-workspace.png)
 
@@ -162,7 +188,15 @@ Install the watsonx Orchestrate ADK extension that enables the development and d
 
 ![API key prompt](images/20-api-key-prompt.png)
 
-7. When the environment becomes active, Bob shows all the agents and tools that exist in that environment.
+7. When the environment becomes active, Bob shows all the agents and tools that exist in that environment.  
+   If that fails, run these commands in your terminal:
+   ```Powershell
+   .\venv\Scripts\activate 
+   orchestrate env add -n saas -u <service instance URL for your watsonx Orchestrate environment>
+   orchestrate env activate saas
+   , and enter the API key
+   ```
+   
 
 ---
 
@@ -253,7 +287,7 @@ Required Fields to Extract:
 
 ![Bob clarification questions](images/10-bob-clarification.png)
 
-6. Bob generates the implementation plan, the architecture design, and the workflow design. If Bob asks you to switch to code mode, **ignore the request** and continue to the next step.
+6. Bob generates the implementation plan, the architecture design, and the workflow design. If Bob asks you to switch to agent mode, **ignore the request** and continue to the next step.
 
 ![Bob implementation plan complete](images/11-bob-plan-complete.png)
 
@@ -271,11 +305,11 @@ Ask Bob to generate the code and the configuration needed to build the agent. Bo
 
 **Steps:**
 
-1. Switch to **Advanced** mode so that Bob can access the two watsonx Orchestrate MCP servers.
+1. Switch to **Agent** mode so that Bob can access the two watsonx Orchestrate MCP servers.
 
 2. Give Bob the instructions to create the agent, then review the plan and click **Approve**.
 
-![Advanced mode – implementation plan approved](images/13-advanced-mode-implement.png)
+![Agent mode – implementation plan approved](images/13-advanced-mode-implement.png)
 
 ```text
 Implement the approved plan and follow the below instructions:

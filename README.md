@@ -42,7 +42,7 @@ IBM Bob is an AI-powered development assistant that helps developers create, dep
 
 **🚀 [START LAB 1 →](Lab%201%20-%20Building%20a%20Todo%20Application%20with%20Bob/README.md)** | ⏱️ 45 min | 📊 Beginner-Intermediate
 
-Build a full-stack Todo app with Python Flask backend and JavaScript frontend. Master Bob's modes (Plan, Code, Ask), auto-approvals, and GitHub integration.
+Build a full-stack Todo app with Python Flask backend and JavaScript frontend. Master Bob's modes (Plan, Agent, Ask), auto-approvals, and GitHub integration.
 
 **What You'll Build:** Complete CRUD application with REST API, SQLite database, and version control
 
@@ -151,7 +151,7 @@ We recommend completing the labs in order:
 📁 **[View Complete Repository Structure →](REPOSITORY-STRUCTURE.md)**
 
 ```
-bobathon-belgium-july/
+bobathon-belgium-labs/
 ├── Lab 1 - Building a Todo Application with Bob/
 │   ├── README.md (714 lines) | solution/ | starter/
 ├── Lab 2 - Build Agentic Workflows.../

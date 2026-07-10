@@ -52,7 +52,7 @@ project/
 2. **Open in IBM Bob:**
    - Launch IBM Bob IDE
    - Navigate to **File → Open Folder**
-   - Select the `Lab 5 - Custom Modes - Test Engineer Mode Demonstration` directory
+   - Select the `LAB01-modes_rules` directory
    - This directory must be your root project folder in IBM Bob
    - Your workspace should now display the project structure with `src/` folder and `README.md` `requirements.txt` files.
 
@@ -94,7 +94,7 @@ The backend application is called `converter`, and its source code is located in
 
 **How to run the application** 
 
-- Open a terminal in the IBM Bob IDE. Your current directory should be `Lab 5 - Custom Modes - Test Engineer Mode Demonstration`.
+- Open a terminal in the IBM Bob IDE. Your current directory should be `LAB01-modes_rules`.
 - Run `python -m venv .venv` - this creates a `.venv` directory in your project. It will serve as your local Python environment.
 - Activate the virtual environment by running `source .venv/bin/activate` - from now on, all Python packages will be installed in the `.venv` directory. (You can deactivate it later with the `deactivate` command.)
 - Now, inform the IBM Bob IDE (like in regular VSCode) to use new virtual environment by :
@@ -123,11 +123,9 @@ Modes are specialized personas that tailor Bob’s behavior to specific tasks. I
 
 IBM Bob comes with several predefined modes:
 
-* `code` — general-purpose coding tasks, optimized for cost efficiency
+* `agent` — general-purpose coding and tool-use tasks, optimized for cost efficiency
 * `ask` — conversational questions and information about your code
 * `plan` — high-level planning and big-picture thinking
-* `advanced` — advanced coding tasks requiring access to MCP tools
-* `orchestrator` — can switch between modes for complex projects that require coordination across multiple specialties and workflows
 
 In this lab, we will create an additional custom mode that acts as a Test Engineer responsible for writing tests. This mode will follow specific rules defining how tests should be implemented.
 

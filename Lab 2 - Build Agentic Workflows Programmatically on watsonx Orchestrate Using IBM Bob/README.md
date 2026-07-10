@@ -26,7 +26,7 @@ By completing this lab, you will:
 1. Configure Bob with watsonx Orchestrate MCP servers
 2. Create Bob rules for development best practices
 3. Use Bob's Plan mode to design agent architecture
-4. Generate complete agent implementations using Bob's Advanced mode
+4. Generate complete agent implementations using Bob's Agent mode
 5. Deploy agentic workflows and agents to watsonx Orchestrate
 6. Test and verify agent functionality
 
@@ -146,7 +146,7 @@ orchestrate env info
 ### Bob Modes
 
 - **Plan Mode**: Create implementation plans and architecture designs
-- **Advanced Mode**: Access MCP servers for code generation
+- **Agent Mode**: Access MCP servers, generate code, and build configuration
 - **Ask Mode**: Query Bob for information and diagrams
 
 ### Development Approach

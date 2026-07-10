@@ -18,7 +18,7 @@ A full-stack todo application with:
 ## Learning Objectives
 
 By the end of this lab, you will:
-- ✅ Understand Bob's three modes (Architect, Code, Ask)
+- ✅ Understand Bob's three modes (Plan, Agent, Ask)
 - ✅ Use auto-approvals for rapid development
 - ✅ Practice literate coding techniques
 - ✅ Integrate GitHub using MCP servers
@@ -53,10 +53,10 @@ Lab 1 Timeline (45 minutes)
 
 ### Understanding Bob's Modes
 
-Bob has three distinct modes, each optimized for different tasks:
+Bob has three built-in modes, each optimized for different tasks:
 
 > **🎯 Bob Differentiator: [Customizable Modes](../bob-differentiators.md#1--extensible-architecture)**
-> Bob's mode system is one of its key differentiators. Unlike other AI assistants, Bob allows you to create custom modes tailored to your team's specific workflows. The three built-in modes you'll use in this lab are just the beginning—you can create specialized modes for code review, documentation, architecture design, and more. Learn more in [Lab 6](../lab6/README.md).
+> Bob's mode system is one of its key differentiators. Unlike other AI assistants, Bob allows you to create custom modes tailored to your team's specific workflows. The three built-in modes you'll use in this lab are just the beginning—you can create specialized modes for code review, documentation, architecture design, and more. Learn more in [Lab 5](../Lab%205%20-%20Custom%20Modes%20-%20Test%20Engineer%20Mode%20Demonstration/).
 
 #### 🎯 Plan Mode
 **When to use**: Planning, designing, strategizing
@@ -65,12 +65,13 @@ Bob has three distinct modes, each optimized for different tasks:
 - Plan database schemas
 - Make architectural decisions
 
-#### 💻 Code Mode
-**When to use**: Writing, modifying, refactoring code
+#### 🤖 Agent Mode
+**When to use**: Writing, modifying, refactoring code — and calling MCP tools
 - Implement features
 - Create files
 - Modify existing code
 - Fix bugs
+- Execute GitHub MCP operations
 
 #### ❓ Ask Mode
 **When to use**: Learning, understanding, getting help
@@ -82,7 +83,7 @@ Bob has three distinct modes, each optimized for different tasks:
 ### Switching Between Modes
 
 In Bob's interface:
-1. Look for the mode selector (usually at the top)
+1. Look for the mode selector (usually at the bottom)
 2. Click to see available modes
 3. Select the mode you need
 4. Bob will adapt its behavior accordingly
@@ -130,13 +131,13 @@ After your clarifications, Bob should provide:
 
 ---
 
-## Step 2: Backend Development with Code Mode (15 minutes)
+## Step 2: Backend Development with Agent Mode (15 minutes)
 
-Now let's build the Flask backend using Bob's Code mode.
+Now let's build the Flask backend using Bob's Agent mode.
 
-### 2.1: Switch to Code Mode
+### 2.1: Switch to Agent Mode
 
-Change from Architect to Code mode in Bob's interface.
+Change from Plan to Agent mode in Bob's interface.
 
 ### 2.2: Create Backend Structure
 
@@ -281,7 +282,7 @@ Now let's create the user interface using JavaScript.
 
 ### 3.1: Create Frontend Structure
 
-**Prompt for Bob (still in Code mode):**
+**Prompt for Bob (still in Agent mode):**
 
 ```
 Create a frontend for the todo app with:
@@ -416,19 +417,20 @@ xdg-open index.html
 
 Now let's use Bob's GitHub MCP server to manage version control.
 
-### 4.1: Switch to Advanced Mode
+### 4.1: Confirm Agent Mode
 
-Before using GitHub MCP servers, switch to Advanced mode:
+In Bob v2, **Agent** mode already includes full MCP tool access — no separate mode switch is needed.
 
-1. Click the mode selector in Bob's interface
-2. Select **Advanced** mode (⚡ Advanced)
-3. Confirm the mode switch
+Confirm you are still in **Agent** mode (🤖 Agent):
 
-**Why Advanced mode is required:**
-- Advanced mode provides the same code editing capabilities as Code mode, plus advanced GitHub MCP server access
-- With Advanced mode, Bob can execute advanced GitHub operations (create repos, make commits, push code)
+1. Check the mode selector in Bob's interface
+2. Verify **Agent** mode is selected
+3. Agent mode can execute GitHub MCP operations directly
 
-Once in Advanced mode, you can use all the same code editing features while also accessing GitHub MCP integrations.
+**Agent mode in Bob v2:**
+- Provides all code editing capabilities
+- Has full MCP server access built in (GitHub, and any other configured MCP servers)
+- Can execute advanced GitHub operations: create repos, make commits, push code
 
 ### 4.2: Understanding MCP Servers
 
@@ -560,8 +562,8 @@ python
 
 You've successfully completed Lab 1! You've learned to:
 
-- ✅ Use Bob's Architect mode for planning
-- ✅ Use Bob's Code mode for implementation
+- ✅ Use Bob's Plan mode for planning
+- ✅ Use Bob's Agent mode for implementation
 - ✅ Enable and use auto-approvals
 - ✅ Apply literate coding principles
 - ✅ Integrate GitHub using MCP servers
@@ -587,8 +589,8 @@ bob-todo-app/
 ## Key Takeaways
 
 ### Bob's Modes
-- **Architect**: Perfect for planning and design decisions
-- **Code**: Best for implementation and file creation
+- **Plan**: Perfect for planning and design decisions
+- **Agent**: Best for implementation, file creation, and MCP tool use
 - **Ask**: Great for learning and understanding
 - **Custom Modes**: Create your own specialized modes ([Learn more](../bob-differentiators.md#customizable-modes))
 
@@ -622,8 +624,8 @@ Try these improvements:
 5. Add search and filter functionality
 
 ### Continue Learning
-- **[Lab 2: Security Analysis →](../lab2/README.md)** - Learn to identify and fix security vulnerabilities
-- **[Lab 3: Code Translation →](../lab3/README.md)** - Translate code between languages
+- **[Lab 2: Agentic Workflows →](../Lab%202%20-%20Build%20Agentic%20Workflows%20Programmatically%20on%20watsonx%20Orchestrate%20Using%20IBM%20Bob/)** - Build programmatic agents with watsonx Orchestrate
+- **[Lab 5: Custom Modes →](../Lab%205%20-%20Custom%20Modes%20-%20Test%20Engineer%20Mode%20Demonstration/)** - Create custom modes with specialized AI agents
 
 ## Troubleshooting
 
@@ -709,6 +711,6 @@ How was this lab? We'd love to hear your thoughts:
 
 ---
 
-**Ready for the next challenge?** → [Start Lab 2: Security Analysis](../lab2/README.md)
+**Ready for the next challenge?** → [Start Lab 2 - Build Agentic Workflows Programmatically on watsonx Orchestrate Using IBM Bob](../Lab%202%20-%20Build%20Agentic%20Workflows%20Programmatically%20on%20watsonx%20Orchestrate%20Using%20IBM%20Bob/README.md)
 
-**Last Updated: February 2026**
+**Last Updated: July 2026**

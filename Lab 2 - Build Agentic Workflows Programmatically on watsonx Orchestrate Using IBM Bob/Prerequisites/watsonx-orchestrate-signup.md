@@ -189,7 +189,7 @@ Now configure the ADK to connect to your watsonx Orchestrate instance.
 
 **📄 For detailed ADK environment configuration instructions, please refer to:**
 
-**[env_setup_instructions.md](../env_setup_instructions.md)**
+**[env setup instructions.pdf](../env%20setup%20instructions%20.pdf)**
 
 This PDF contains the complete, authoritative guide for configuring the ADK environment with your watsonx Orchestrate instance.
 
@@ -229,7 +229,7 @@ You'll need:
 **Symptoms**: `orchestrate env list` shows no environments
 
 **Solutions**:
-- Re-add the environment following the instructions in the [env_setup_instructions.md](../env_setup_instructions.md)
+- Re-add the environment following the instructions in the [env setup instructions.pdf](../env%20setup%20instructions%20.pdf)
 
 ### Issue: "Wrong Authentication Type"
 

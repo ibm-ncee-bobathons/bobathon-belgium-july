@@ -5,7 +5,7 @@ Visual overview of the IBM Bobathon Belgium Labs repository organization.
 ## Directory Tree
 
 ```
-bobathon-belgium-july/
+bobathon-belgium-labs/
 ├── README.md                          # Main repository overview
 ├── .gitignore                         # Git ignore rules
 ├── REPOSITORY-STRUCTURE.md            # This file
@@ -19,6 +19,35 @@ bobathon-belgium-july/
     ├── wxo-bob-lab.md                 # Complete step-by-step tutorial
     ├── ibmid-registration.md          # IBMid creation for TechZone
     └── images/                        # 29 tutorial screenshots
+        ├── 01-architecture-diagram.png
+        ├── 02-architecture-table.png
+        ├── 03-architecture-flow.png
+        ├── 04-mcp-json-config.png
+        ├── 05-bob-rule-wxo-development.png
+        ├── 06-plan-mode-prompt.png
+        ├── 07-bob-prompt-sent.png
+        ├── 08-bob-approve-file.png
+        ├── 09-bob-task-list.png
+        ├── 10-bob-clarification.png
+        ├── 11-bob-plan-complete.png
+        ├── 12-workflow-diagram.png
+        ├── 13-advanced-mode-implement.png
+        ├── 14-bob-creates-flow.png
+        ├── 15-bob-creates-agent-yaml.png
+        ├── 16-bob-creates-import-script.png
+        ├── 17-bob-creates-docs.png
+        ├── 18-initialize-workspace.png
+        ├── 19-environment-manager.png
+        ├── 20-api-key-prompt.png
+        ├── 21-bob-deploy-instruction.png
+        ├── 22-bob-runs-import.png
+        ├── 23-ibmcloud-resource-list.png
+        ├── 24-wxo-launch-button.png
+        ├── 25-manage-agents-search.png
+        ├── 26-agent-config.png
+        ├── 27-test-agent-upload.png
+        ├── 28-agent-json-result.png
+        └── 29-bob-all-tasks-complete.png
 ```
 
 ## Learning Path
@@ -104,7 +133,7 @@ graph TD
 4. MCP Configuration - Optional server setup
 5. Bob Rules - Development best practices
 6. Plan Creation - Design agent with Bob's Plan mode
-7. Implementation - Generate code with Bob's Advanced mode
+7. Implementation - Generate code with Bob's Agent mode
 8. Deployment - Import workflow and agent to wxO
 9. Verification - Test agent functionality
 10. Summary - Review and next steps
@@ -177,7 +206,7 @@ graph TD
 This repository structure is designed to accommodate additional labs:
 
 ```
-bobathon-amsterdam-labs/
+bobathon-belgium-labs/
 ├── Lab 1 - [Topic]/              # Future lab
 │   └── Prerequisites/            # Lab-specific setup
 ├── Lab 2 - Build Agentic Workflows Programmatically on watsonx Orchestrate Using IBM Bob/
