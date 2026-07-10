@@ -8,7 +8,7 @@ This lab provides an **interactive demonstration** of IBM Bob's capabilities acr
 
 ## 🚀 Access the Interactive Demo
 
-**[Launch Interactive Demo →](https://ibm-bobathon-amsterdam.s3-web.eu-de.cloud-object-storage.appdomain.cloud/stages/stage-0.html)**
+**[Launch Interactive Demo →](https://ludovic-gasc.github.io/bob-demo-presenter/stages/stage-0.html)**
 
 ---
 
